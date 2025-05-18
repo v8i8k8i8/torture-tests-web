@@ -8,6 +8,19 @@ It’s the **unholy checklist** of every bizarre, forgotten, browser-breaking sc
 
 From emoji floods to date field time travel to duplicate tab madness — this repo is where bad ideas become great tests.
 
+
+## 🔥 Tests Included
+
+| Test                     | Description                                         |
+|--------------------------|-----------------------------------------------------|
+| `emoji-input`            | Floods form fields with 500+ emojis.               |
+| `rapid-clicks`           | Spam-clicks critical buttons at insane speed.      |
+| `date-9999`              | Tests date inputs with far-future values.          |
+| `duplicate-tabs`         | Performs actions in multiple tabs simultaneously.  |
+| `cache-wipe`             | Clears cookies, cache, local storage mid-session.  |
+| `file-overkill`          | Uploads massive files to test size limits.         |
+
+
 ---
 
 🔬 Built with:  
@@ -26,4 +39,9 @@ From emoji floods to date field time travel to duplicate tab madness — this re
 ---
 
 **Warning:** Running this suite may uncover bugs that lead to actual conversations with your dev team. Use responsibly.
+## ⚙️ How to Run
+
+```bash
+npm install
+npx playwright test
 
